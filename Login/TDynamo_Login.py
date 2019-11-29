@@ -31,8 +31,8 @@ class login(unittest.TestCase):
            # lp.getfeedbackMsg()
     @classmethod
     def tearDownClass(cls):
-        pass
-       # cls.driver.close()
+        #pass
+        cls.driver.close()
 
 
 if __name__=="__main__":
